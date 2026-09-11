@@ -14,14 +14,20 @@ skills poderão ser adicionadas posteriormente.
 ## Instalar no Codex
 
 É necessário ter o Codex CLI instalado e acesso de leitura a este repositório
-privado no GitHub. A autenticação Git/GitHub deve estar configurada no computador.
+privado no GitHub. Para os comandos abaixo, configure uma chave SSH autorizada
+no GitHub para a conta que tem acesso ao repositório.
 
 Execute:
 
 ```bash
-codex plugin marketplace add kinboxapp/kinbox-plugins
+codex plugin marketplace add git@github.com:kinboxapp/kinbox-plugins.git
 codex plugin add kinbox@kinbox-team
 ```
+
+Se o computador já tiver autenticação Git por HTTPS configurada, também é
+possível adicionar o marketplace com `codex plugin marketplace add
+kinboxapp/kinbox-plugins`. Estar conectado somente ao `gh` não garante que o Git
+por HTTPS tenha acesso ao repositório privado.
 
 Depois da instalação:
 
