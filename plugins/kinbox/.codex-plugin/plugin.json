@@ -1,0 +1,39 @@
+{
+  "name": "kinbox",
+  "version": "0.1.0",
+  "description": "Conecte o Codex ao Kinbox para consultar e gerenciar contatos, conversas e negócios pelo MCP.",
+  "author": {
+    "name": "Kinbox",
+    "url": "https://www.kinbox.com.br"
+  },
+  "keywords": [
+    "kinbox",
+    "mcp",
+    "atendimento",
+    "crm",
+    "whatsapp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Kinbox",
+    "shortDescription": "Gerencie seu atendimento e CRM no Kinbox.",
+    "longDescription": "Conecte sua conta Kinbox para consultar contatos, resumir conversas e acompanhar negócios no CRM. Atualize registros, gerencie atendimentos e envie mensagens conforme as permissões concedidas à conexão.",
+    "developerName": "Kinbox",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.kinbox.com.br",
+    "brandColor": "#316FEA",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "defaultPrompt": [
+      "Resuma as conversas abertas no Kinbox.",
+      "Encontre um contato e resuma seu histórico.",
+      "Liste os negócios abertos no meu funil de vendas."
+    ]
+  },
+  "repository": "https://github.com/kinboxapp/kinbox-plugins",
+  "homepage": "https://github.com/kinboxapp/kinbox-plugins#readme"
+}

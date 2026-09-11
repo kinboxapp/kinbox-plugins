@@ -1,0 +1,20 @@
+{
+  "name": "kinbox-team",
+  "interface": {
+    "displayName": "Kinbox Team"
+  },
+  "plugins": [
+    {
+      "name": "kinbox",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kinbox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
